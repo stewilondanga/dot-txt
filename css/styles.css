@@ -27,7 +27,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/*.toolbar {
+.toolbar {
   display: block;
   width: 100%;
   height: 38px;
@@ -37,7 +37,7 @@ body {
   background: #eee;
 }
 
-.toolbar a {
+/*.toolbar a {
   display: inline-block;
   width: 40px;
   height: 40px;
