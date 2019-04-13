@@ -1,4 +1,6 @@
-body {
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -21,6 +23,60 @@ body {
   height: 1.5em;
 }
 
+
+body {
+  font-family: "Source Sans Pro";
+  color: #333333;
+}
+
+.editor {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.toolbar {
+  display: block;
+  width: 100%;
+  height: 38px;
+  border: 1px solid #999;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  background: #eee;
+}
+
+.toolbar a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+  color: #555;
+}
+
+.content {
+  width: 500px;
+  height: auto;
+  max-width: 100%;
+  padding: 15px;
+  border: 1px solid #999;
+  border-radius: 0 0 5px 5px;
+  overflow: auto;
+}
+
+/* footer layout */
+/*footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .containers {
   width: 520px;
   margin: 20px auto;
@@ -31,7 +87,7 @@ body {
   font-weight: normal;
   text-align: center;
   color: #c0c0c0;
-  padding-top: 50px;
+  padding-top: 600px;
   padding-bottom: 10px;
   width: 375px;
   margin: 0 auto;
