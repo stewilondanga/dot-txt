@@ -37,7 +37,7 @@ body {
   background: #eee;
 }
 
-/*.toolbar a {
+.toolbar a {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -48,7 +48,7 @@ body {
   color: #555;
 }
 
-.content {
+/*.content {
   width: 500px;
   height: auto;
   max-width: 100%;
