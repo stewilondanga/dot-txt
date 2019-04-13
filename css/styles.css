@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
+body {
+  font-family: "Source Sans Pro";
+  color: #333333;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,12 +26,6 @@
 
 .my_social a img {
   height: 1.5em;
-}
-
-
-body {
-  font-family: "Source Sans Pro";
-  color: #333333;
 }
 
 .editor {
